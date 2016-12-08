@@ -1,0 +1,17 @@
+
+.Layer {
+    height: 1100px;
+    margin: 0 auto;
+    width: 640px;
+    background-color:#68cdd5;
+    padding: 0;
+}
+.arrow,.grape,.intro,.logo {
+    position:absolute;
+    display: block;
+    text-align: center;
+}
+
+
+
+
