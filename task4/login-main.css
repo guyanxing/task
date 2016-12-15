@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #eff0f4;
+    overflow:hidden;
+    word-break:break-all;
+    z-index: 0;
+}
+/*头部*/
+.login-head{
+    width: 100%;
+    background: #5fc0cd;
+    height: 87px;
+}
+.close,.logon,.register{
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+.close-div{
+    margin-left:5%;
+    float: left;
+    height: 87px;
+    line-height: 87px;
+}
+.logon-div{
+    float: left;
+    margin-left: 35%;
+    height: 87px;
+    line-height: 87px;
+}
+.register-div{
+    float: right;
+    margin-right: 5%;
+    height: 87px;
+    line-height: 87px;
+}
+
+/*主页面*/
+.phone{
+    clear: both;
+    margin-top: 2%;
+    padding: 2% 0;
+    background: #fff;
+}
+.phone-label{
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+.phone input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-left: 2px solid #eaedee;
+}
+.lock{
+    margin-top: 2%;
+    padding: 2% 0;
+    background: #fff;
+}
+.lock-label{
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+.lock input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-left: 2px solid #eaedee;
+}
+.bottom{
+    background-color: #5fc0cd;
+    width: 100%;
+    margin-top: 6%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bottom button{
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+    background-color: #5fc0cd;
+
+}
